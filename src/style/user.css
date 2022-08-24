@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.dashboard-main-content{
+    display: flex;
+}
+
+.dashboard-user-info{
+    background-color: #F7F7F7;
+    width: 81.5%;
+}
+
+.table{
+    padding: 18px 25px 23px 17px;
+    width: 100%;
+}
+
+.table-inner {
+    width: 100%;
+    padding: 16px 0px 15px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.table-inner-wrapper{
+    box-shadow: rgba(0, 0, 0, 0.048) 0px 0px 0px, rgba(0, 0, 0, 0.123) 0px 1px 3px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    padding: 0 15px;
+}
+
+.user-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+}
+
+.user-row-2{
+    border-top: 1px solid rgba(240, 240, 240, 0.644);
+    padding: 5px 0 1px 0;
+}
+
+.user-data-header{
+    font-size: 0.8rem !important;
+    color: rgb(153, 153, 153) !important;
+    font-weight: 600 !important;
+}
+
+.user-image {
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+}
+
+.image-column {
+    width: 11.7%;
+    padding-left: 15px;
+}
+
+.name-column {
+    text-align: left;
+    width: 15.9%;
+    font-size: 0.7rem;
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+
+.number-column {
+    text-align: left;
+    width: 14.1%;
+    font-size: 0.7rem;
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+
+.email-column {
+    text-align: left;
+    width: 21.4%;
+    font-size: 0.7rem;
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+
+.status-column {
+    text-align: left;
+    width: 15.4%;
+    font-size: 0.7rem;
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+
+.time-column {
+    text-align: left;
+    width: 14.8%;
+    color: #bcbfcd;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.icons-column {
+    text-align: left;
+    width: 6.7%;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    justify-content: space-around;
+}
+
+.icons-container * {
+    color: #8006c3;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.active-stat {
+    color: #69d889;
+    background-color: #c8f1d1;
+    padding: 3px;
+    border-radius: 15px;
+    width: 70px;
+    text-align: center;
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+
+.inactive-stat {
+    color: #f06d6a;
+    background-color: #facbc9;
+    padding: 3px;
+    border-radius: 15px;
+    width: 70px;
+    text-align: center;
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+
+.icon-edit{
+    font-size: 21px;
+}
